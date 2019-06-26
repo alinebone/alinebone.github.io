@@ -170,7 +170,7 @@ Resultado final:
 	<img src="../assets/img/calendar3.png">
 </figure>
 
-Código fonte: <a href="https://github.com/mealine/AgendaDeCompromissos">**Github**</a><br/>
+Código fonte: <a href="https://github.com/alinebone/AgendaDeCompromissos">**Github**</a><br/>
 Demo: <a href="http://tutorialagenda.herokuapp.com/compromissos">**Heroku**</a>
 
 Obrigada!
