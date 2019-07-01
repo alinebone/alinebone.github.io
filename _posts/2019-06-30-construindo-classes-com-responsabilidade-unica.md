@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Construindo classes com responsabilidade única"
-date:   2014-06-30
+date:   2019-06-30
 ---
 
-*Practical Object-Oriented Design in Ruby, Sandi Metz.  
-Chapter 2 - Design classes with single responsability*
+Notas do estudo do livro *Practical Object-Oriented Design in Ruby* de Sandi Metz.  
+*Capítulo 2 - Design classes with single responsability*
 
 Se um projeto tem sucesso, existe uma possibilidade enorme dele precisar ser atualizado, por isso é fundamental que o código seja fácil de mudar.
 
