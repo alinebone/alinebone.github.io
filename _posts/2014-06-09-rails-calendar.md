@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Criar agenda de compromissos usando Rails 4"
+title:  "[OUT OF DATE] Criar agenda de compromissos usando Rails 4"
 date:   2014-06-09
 ---
 

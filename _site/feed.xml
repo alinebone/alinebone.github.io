@@ -1,4 +1,130 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-06-25T22:49:51-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Aline Ebone</title><subtitle>Software Developer</subtitle><entry><title type="html">Criar agenda de compromissos usando Rails 4</title><link href="http://localhost:4000/rails-calendar/" rel="alternate" type="text/html" title="Criar agenda de compromissos usando Rails 4" /><published>2014-06-09T00:00:00-03:00</published><updated>2014-06-09T00:00:00-03:00</updated><id>http://localhost:4000/rails-calendar</id><content type="html" xml:base="http://localhost:4000/rails-calendar/">&lt;p&gt;Uma forma muito legal de agregar uma agenda de compromissos ou eventos no seu projeto é utilizando um calendário. No Ruby on Rails é muito simples fazer isso com a ajuda da gem &lt;strong&gt;table_builder&lt;/strong&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-06T01:46:48-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Aline Ebone</title><subtitle>Software Developer</subtitle><entry><title type="html">[Clean Code] Nomes significativos</title><link href="http://localhost:4000/clean-code-nomes-significativos/" rel="alternate" type="text/html" title="[Clean Code] Nomes significativos" /><published>2019-07-05T00:00:00-03:00</published><updated>2019-07-05T00:00:00-03:00</updated><id>http://localhost:4000/clean-code-nomes-significativos</id><content type="html" xml:base="http://localhost:4000/clean-code-nomes-significativos/">&lt;p&gt;Notas de estudo do livro &lt;em&gt;Clean Code&lt;/em&gt; de Robert C. Martin.&lt;br /&gt;
+&lt;em&gt;Capítulo 2 - Nomes significativos&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Uma das coisas que mais fazemos quando programamos é nomear. Nomeamos classes, funções, variáveis, entre outra coisas. Já que fazemos muito isso, é importante que façamos bem.&lt;/p&gt;
+
+&lt;h2 id=&quot;use-nomes-que-revelem-seu-propósito&quot;&gt;Use nomes que revelem seu propósito&lt;/h2&gt;
+
+&lt;p&gt;Escolher bons nomes leva tempo, mas economiza mais. Portanto, cuide de seus nomes e troque-os quando encontrar melhores.
+O nome de uma variável, função ou classe deve lhe dizer porque existe, como faz e como é usado. Se um nome requer comentário, ele não revela seu propósito.&lt;/p&gt;
+
+&lt;p&gt;Exemplos de nomes ruins: &lt;em&gt;a&lt;/em&gt;, &lt;em&gt;list&lt;/em&gt;, &lt;em&gt;n1&lt;/em&gt;, &lt;em&gt;getThem()&lt;/em&gt;.&lt;br /&gt;
+Exemplos de nomes bons: &lt;em&gt;age&lt;/em&gt;, &lt;em&gt;names&lt;/em&gt;, &lt;em&gt;month&lt;/em&gt;, &lt;em&gt;getAges()&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;evite-informações-erradas&quot;&gt;Evite informações erradas&lt;/h2&gt;
+
+&lt;p&gt;Devemos evitar palavras cujos significados podem se desviar daqueles que desejamos. Por exemplo, nunca utilize a variável &lt;em&gt;accountList&lt;/em&gt; a menos que essa variável seja uma &lt;em&gt;List&lt;/em&gt; (palavra específica de muitas linguagens de programação) de verdade. Se não for o caso, utilize outros nomes como &lt;em&gt;accountGroup&lt;/em&gt; ou apenas &lt;em&gt;accounts&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;faça-distinções-significativas&quot;&gt;Faça distinções significativas&lt;/h2&gt;
+
+&lt;p&gt;Suponhamos que temos os métodos &lt;em&gt;getActiveAccount()&lt;/em&gt; e &lt;em&gt;getActiveAccountInfo()&lt;/em&gt;, como saber qual chamar? Também não há como distinguir &lt;em&gt;moneyAccount&lt;/em&gt; de &lt;em&gt;money&lt;/em&gt; ou &lt;em&gt;customerInfo&lt;/em&gt; de &lt;em&gt;customer&lt;/em&gt;. Faça distinções de uma forma que o leitor compreenda as diferenças. Se começamos a nomear as coisas de forma parecida, temos que reavaliar se o design do código está da forma que deveria ser.&lt;/p&gt;
+
+&lt;h2 id=&quot;use-nomes-pronunciáveis&quot;&gt;Use nomes pronunciáveis&lt;/h2&gt;
+
+&lt;p&gt;Uma das coisas que fazemos como desenvolvedores, é discutir com outros o nosso código. Precisamos usar nomes pronunciáveis para fazer isso de uma forma melhor. Isso importa porque a programação dentro do ambiente de mercado, querendo ou não, é uma atividade social.&lt;/p&gt;
+
+&lt;h2 id=&quot;use-nomes-passíveis-de-busca&quot;&gt;Use nomes passíveis de busca&lt;/h2&gt;
+
+&lt;p&gt;Nomes que possuem apenas uma letra ou números são difíceis de buscar em um código longo. Uma busca pela variável &lt;em&gt;a&lt;/em&gt; por exemplo, em qualquer IDE, retornaria milhares de resultados dependendo do tamanho do código.&lt;/p&gt;
+
+&lt;h2 id=&quot;evite-codificações-e-prefixos-de-variáveis-membro&quot;&gt;Evite codificações e prefixos de variáveis membro&lt;/h2&gt;
+
+&lt;p&gt;Nomes codificados raramente são pronunciáveis, além de ser fácil escrevê-los incorretamente. Exemplos de nomes ruins: &lt;em&gt;m_dsc&lt;/em&gt;, &lt;em&gt;IShapeFactory&lt;/em&gt; e &lt;em&gt;phoneString&lt;/em&gt;.&lt;br /&gt;
+&lt;em&gt;IShapeFactory&lt;/em&gt; é um exemplo muito seguido hoje em dia para interfaces, mas não tem porque enfeitar o nome, o que interessa é que ela é uma &lt;em&gt;ShapeFactory&lt;/em&gt;, não precisa incluir o &lt;em&gt;I&lt;/em&gt;. Para a implementação, posso usar o nome &lt;em&gt;ShapeFactoryImp&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;evite-o-mapeamento-mental&quot;&gt;Evite o mapeamento mental&lt;/h2&gt;
+
+&lt;p&gt;Certamente um contador de iterações pode ser chamado de &lt;em&gt;i&lt;/em&gt;, &lt;em&gt;j&lt;/em&gt; ou &lt;em&gt;k&lt;/em&gt;, pois isso já se tornou uma convenção, desde que seu escopo seja pequeno e não houver outros nomes que possam entrar em conflito. Mas no geral, um nome de uma letra só é uma escolha ruim. Dificilmente você vai lembrar que um &lt;em&gt;r&lt;/em&gt; minúsculo é uma versão da url sem o host, muito menos outro programador que está mantendo o seu código.&lt;/p&gt;
+
+&lt;h2 id=&quot;nomes-de-classes&quot;&gt;Nomes de classes&lt;/h2&gt;
+
+&lt;p&gt;Classes e objetos devem ter nomes com substantivo, como &lt;em&gt;Customer&lt;/em&gt;, &lt;em&gt;Account&lt;/em&gt; e &lt;em&gt;AddressParser&lt;/em&gt;. Não use verbos.&lt;/p&gt;
+
+&lt;h2 id=&quot;nomes-de-métodos&quot;&gt;Nomes de métodos&lt;/h2&gt;
+
+&lt;p&gt;Os nomes de métodos devem ter verbos como &lt;em&gt;save()&lt;/em&gt; e &lt;em&gt;deletePage()&lt;/em&gt;. Devem-se nomear métodos de acesso, alteração e autenticação segundo seus valores e adicionar os prefixos &lt;em&gt;get&lt;/em&gt;, &lt;em&gt;set&lt;/em&gt; e &lt;em&gt;is&lt;/em&gt; (padrão &lt;em&gt;javabean&lt;/em&gt;). Exemplo: &lt;em&gt;geUser()&lt;/em&gt;, &lt;em&gt;setUser()&lt;/em&gt; e &lt;em&gt;isAdmin()&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;não-dê-uma-de-espertinho&quot;&gt;Não dê uma de espertinho&lt;/h2&gt;
+
+&lt;p&gt;Se os nomes forem muito “espertinhos”, apenas pessoas com o mesmo senso de humor irão entender.&lt;/p&gt;
+
+&lt;h2 id=&quot;selecione-uma-palavra-por-conceito&quot;&gt;Selecione uma palavra por conceito&lt;/h2&gt;
+
+&lt;p&gt;Escolha uma palavra por cada conceito abstrato e fique com ela. Por exemplo, é confuso ter &lt;em&gt;get&lt;/em&gt;, &lt;em&gt;fetch&lt;/em&gt; e &lt;em&gt;retrieve&lt;/em&gt; como métodos equivalentes de classes diferentes. Da mesma forma é confuso ter um &lt;em&gt;controller&lt;/em&gt;, um &lt;em&gt;manager&lt;/em&gt; e um &lt;em&gt;driver&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;não-faça-trocadilhos&quot;&gt;Não faça trocadilhos&lt;/h2&gt;
+
+&lt;p&gt;Evite usar a mesma palavra para dois propósitos. Por exemplo, você pode ter várias classes com o método &lt;em&gt;add()&lt;/em&gt;, contanto que as listas de parâmetros e os valores retornados dos diversos métodos &lt;em&gt;add()&lt;/em&gt; sejam semanticamente equivalentes. Se não for o caso, use &lt;em&gt;append()&lt;/em&gt; ou &lt;em&gt;insert()&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;use-nomes-a-partir-do-domínio-da-solução&quot;&gt;Use nomes a partir do domínio da solução&lt;/h2&gt;
+
+&lt;p&gt;São programadores que lerão o seu código. Portanto, está liberado usar nomes relativos da área. Nâo é prudente colocar um nome a partir do domínio do problema, pois o programador precisaria consultar o cliente todo o tempo para entender o significado de um nome. Por exemplo, o nome &lt;em&gt;AccountVisitor&lt;/em&gt; significa o bastante para um programador familiarizado com o padrão &lt;em&gt;visitor&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Use nomes de domínios do problema&lt;/strong&gt; somente quando não houver uma solução &lt;em&gt;a la programador&lt;/em&gt;, pois pelo menos ele poderá consultar o cliente.&lt;/p&gt;
+
+&lt;h2 id=&quot;adicione-um-contexto-significativo&quot;&gt;Adicione um contexto significativo&lt;/h2&gt;
+
+&lt;p&gt;Há poucos nomes que são significativos por si só. Imagine as variáveis &lt;em&gt;street&lt;/em&gt;, &lt;em&gt;houseNumber&lt;/em&gt;, &lt;em&gt;city&lt;/em&gt; e &lt;em&gt;state&lt;/em&gt;. Vistas juntas, fica claro que se trata de um endereço. Mas com a variável &lt;em&gt;state&lt;/em&gt; sozinha, ficaria mais difícil de entender do que se trata, &lt;em&gt;state&lt;/em&gt; pode ser várias coisas. A solução ideal nesse caso, é ter um objeto &lt;em&gt;Address&lt;/em&gt;, mas se isso não for possível, pode-se abrir uma exceção e usar o prefixo &lt;em&gt;addr&lt;/em&gt;, ficando &lt;em&gt;addrState&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;não-adicione-contextos-desnecessários&quot;&gt;Não adicione contextos desnecessários&lt;/h2&gt;
+
+&lt;p&gt;Em uma aplicação chamada &lt;em&gt;Gas Station Deluxe&lt;/em&gt; (GSD), seria uma péssima ideia adicionar o prefixo GSD em todas as classes. Isso dificultaria a busca (se eu pesquisar &lt;em&gt;G&lt;/em&gt; por exemplo, apareceria uma lista enorme com todas as classes). Os nomes &lt;em&gt;accountAddress&lt;/em&gt; e &lt;em&gt;customerAddress&lt;/em&gt; são bons para instâncias de classes, mas péssimos para as classes mesmo, a classe deve ser apenas &lt;em&gt;Address&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusão&quot;&gt;Conclusão&lt;/h2&gt;
+
+&lt;p&gt;Não tenha receio de renomear as coisas por temer a opinião de outros desenvolvedores. Desenvolvedores profissionais ficam agradecidos quando o código muda para melhor. De qualquer forma, na maioria das vezes, não memorizamos os nomes de métodos e classes. Use qualquer dica acima e note como o código ficará mais legível.&lt;/p&gt;</content><author><name></name></author><summary type="html">Notas de estudo do livro Clean Code de Robert C. Martin. Capítulo 2 - Nomes significativos</summary></entry><entry><title type="html">Construindo classes com responsabilidade única</title><link href="http://localhost:4000/construindo-classes-com-responsabilidade-unica/" rel="alternate" type="text/html" title="Construindo classes com responsabilidade única" /><published>2019-06-30T00:00:00-03:00</published><updated>2019-06-30T00:00:00-03:00</updated><id>http://localhost:4000/construindo-classes-com-responsabilidade-unica</id><content type="html" xml:base="http://localhost:4000/construindo-classes-com-responsabilidade-unica/">&lt;p&gt;Notas de estudo do livro &lt;em&gt;Practical Object-Oriented Design in Ruby&lt;/em&gt; de Sandi Metz.&lt;br /&gt;
+&lt;em&gt;Capítulo 2 - Design classes with single responsability&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Se um projeto tem sucesso, existe uma possibilidade enorme dele precisar ser atualizado, por isso é fundamental que o código seja fácil de mudar.&lt;/p&gt;
+
+&lt;p&gt;Sandi Metz, autora de &lt;em&gt;Practical Object-Oriented Design in Ruby&lt;/em&gt; usa um acróstico com a palavra TRUE para definir como um código deve ser:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;T&lt;/strong&gt;ransparent&lt;br /&gt;
+&lt;strong&gt;R&lt;/strong&gt;easonable&lt;br /&gt;
+&lt;strong&gt;U&lt;/strong&gt;sable&lt;br /&gt;
+&lt;strong&gt;E&lt;/strong&gt;xemplary&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Transparent&lt;/em&gt;: significa que as consequências de uma mudança no código devem ser óbvias.&lt;br /&gt;
+&lt;em&gt;Reasonable&lt;/em&gt;: o custo de uma mudança deve ser proporcional aos seus benefícios. &lt;br /&gt;
+&lt;em&gt;Usable&lt;/em&gt;: o código existente deve continuar sendo usável após as alterações, mesmo em contextos novos e inesperados.&lt;br /&gt;
+&lt;em&gt;Exemplary&lt;/em&gt;: o código deve encorajar os outros a manter a qualidade.&lt;/p&gt;
+
+&lt;p&gt;O primeiro passo para criar um código TRUE é usar o princípio da reponsabilidade única, que diz que uma classe deve fazer a menor coisa útil possível.&lt;/p&gt;
+
+&lt;p&gt;Quando estamos desenvolvendo uma aplicação, procuramos substantivos candidatos a serem classes. São candidatos os substantivos que possuem atributos e comportamentos, como a marcha de uma bicicleta. Uma classe &lt;em&gt;marcha&lt;/em&gt; poderia ter correntes, engrenagens, roda e pneu (atributos), e proporção e tamanho da marcha (comportamento).&lt;/p&gt;
+
+&lt;p&gt;Para um programa crescer, ele precisa ser modificado de forma que seja fácil de trabalhar no futuro.
+Aplicações fáceis de mudar são aplicações fáceis de reutilizar.&lt;/p&gt;
+
+&lt;p&gt;As classes devem ser como blocos com propósito específico e que vamos mantendo conforme a necessidade. A classe que contém mais de um propósito é difícel de ser reutilizada.&lt;/p&gt;
+
+&lt;p&gt;Dica: Tratar métodos com quetões para ver se eles estão certos:
+&lt;em&gt;Hey, [nome da classe], qual o seu [nome do método]?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Se quando desrevermos a classe, usarmos a palavra “e”, ela provavelmente tem mais de uma responsabilidade. Se usarmos a palavra “ou”, ela tem mais de uma responsabilidade e elas não são nem relacionadas.&lt;/p&gt;
+
+&lt;p&gt;Exemplos de descrição para a classe marcha:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Calcular a proporção entre rodas dentadas&lt;/li&gt;
+  &lt;li&gt;Calcula o efeito que a marcha tem uma uma bicicleta&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Se não tenho certeza sobre a responsabilidade de uma classe, devo aguardar até ter mais informações, pois a tendência é que o próximo desenvolvedor replique o meu design ou reuse minha classe.
+Portanto, faça o código com cuidado e seja crítico com o código dos outros.&lt;/p&gt;
+
+&lt;p&gt;Dependa de comportamento, não de dados:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Encapsule as variáveis em métodos de acesso (get). Se eu referenciar essa variável em 10 lugares e precisar mudar o que ela significa, fica mais fácil fazer isso modificando ou implementando minha versão do método.&lt;/li&gt;
+  &lt;li&gt;Utilizar &lt;em&gt;single responsability&lt;/em&gt; também em outros lugares, como métodos. O objetivo é deixar o código fácil de mudar, e não pequeno. Refatorar o método para que ele tenha responsabilidade única traz vantagens como:
+    &lt;ul&gt;
+      &lt;li&gt;Fica mais fácil entender se uma classe tem responsabilidade única&lt;/li&gt;
+      &lt;li&gt;Evita comentários explicando o que o método faz&lt;/li&gt;
+      &lt;li&gt;Encoraja o reuso do método&lt;/li&gt;
+      &lt;li&gt;Métodos pequenos são mais fáceis de mover para outra classe, caso necessário&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Se encontrar responsabilidades extras em uma classe que ainda não podem ser removidas, isole-as, usando ferramentas como o struct do Ruby.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Notas de estudo do livro Practical Object-Oriented Design in Ruby de Sandi Metz. Capítulo 2 - Design classes with single responsability</summary></entry><entry><title type="html">[OUT OF DATE] Criar agenda de compromissos usando Rails 4</title><link href="http://localhost:4000/rails-calendar/" rel="alternate" type="text/html" title="[OUT OF DATE] Criar agenda de compromissos usando Rails 4" /><published>2014-06-09T00:00:00-03:00</published><updated>2014-06-09T00:00:00-03:00</updated><id>http://localhost:4000/rails-calendar</id><content type="html" xml:base="http://localhost:4000/rails-calendar/">&lt;p&gt;Uma forma muito legal de agregar uma agenda de compromissos ou eventos no seu projeto é utilizando um calendário. No Ruby on Rails é muito simples fazer isso com a ajuda da gem &lt;strong&gt;table_builder&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Crie um novo projeto e gere o modelo de compromisso.&lt;/p&gt;
 
