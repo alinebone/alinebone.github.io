@@ -1,4 +1,186 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-06T01:46:48-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Aline Ebone</title><subtitle>Software Developer</subtitle><entry><title type="html">[Clean Code] Nomes significativos</title><link href="http://localhost:4000/clean-code-nomes-significativos/" rel="alternate" type="text/html" title="[Clean Code] Nomes significativos" /><published>2019-07-05T00:00:00-03:00</published><updated>2019-07-05T00:00:00-03:00</updated><id>http://localhost:4000/clean-code-nomes-significativos</id><content type="html" xml:base="http://localhost:4000/clean-code-nomes-significativos/">&lt;p&gt;Notas de estudo do livro &lt;em&gt;Clean Code&lt;/em&gt; de Robert C. Martin.&lt;br /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-05T01:22:00-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Aline Ebone</title><subtitle>Software Developer</subtitle><entry><title type="html">Our daily productivity tips</title><link href="http://localhost:4000/our-daily-productivity-tips/" rel="alternate" type="text/html" title="Our daily productivity tips" /><published>2019-08-03T00:00:00-03:00</published><updated>2019-08-03T00:00:00-03:00</updated><id>http://localhost:4000/our-daily-productivity-tips</id><content type="html" xml:base="http://localhost:4000/our-daily-productivity-tips/">&lt;p&gt;In order to gain some time at work, we have a group of tools and configurations set on our laptops to make things easier and faster. They are not rules. But in general, people who adopt it, end up liking most of them.&lt;br /&gt;
+At ThoughtWorks we usually work with Macbook Pro with Touch Bar, so some tips are specific for it. But most of them are configurable on any laptop/OS.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-configure-the-function-keys-to-appear-whenever-you-want&quot;&gt;1. Configure the Function Keys to appear whenever you want&lt;/h2&gt;
+&lt;p&gt;In the beginning, it was annoying to lose the Function Keys because of the Touch Bar. The Functions Keys are a very good resource to use the shortcuts that IntelliJ or any other IDE provide us while coding.
+To solve this, go to:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;System Preferences &amp;gt; Keyboard &amp;gt; Shortcuts &amp;gt; Function Keys&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Then add whatever application you want. The added applications will keep the Function Keys visible while the application window is being used, and you don’t lose the regular things that the Touch Bar will show while using other applications.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../assets/img/tip1-1.png&quot; /&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+		&lt;img src=&quot;../assets/img/tip1-2.jpg&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;2-fast-mouse&quot;&gt;2. Fast mouse!&lt;/h2&gt;
+&lt;p&gt;Since we are talking about speed, let’s make the mouse run! If you’re not used to the fast-tracking speed it can be uncomfortable in the beginning, but give it a try for 10 minutes.
+To configure the mouse, go to:&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;System Preferences &amp;gt; Mouse&lt;/code&gt;, and set the &lt;strong&gt;Tracking speed&lt;/strong&gt; to Fast.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../assets/img/tip2-1.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;If you work with the Trackpad, go to:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;System Preferences &amp;gt; Mouse&lt;/code&gt;, and do the same, set the &lt;strong&gt;Tracking speed&lt;/strong&gt; to Fast.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../assets/img/tip2-2.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;3-latency-and-key-repeat&quot;&gt;3. Latency and Key Repeat&lt;/h2&gt;
+
+&lt;p&gt;Similar to the previous tip. This one makes your keyboard keys faster. Go to:&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;System Preferences &amp;gt; Keyboard&lt;/code&gt;, set &lt;strong&gt;Key Repeat&lt;/strong&gt; to Fast, and &lt;strong&gt;Delay Until Repeat&lt;/strong&gt; to Short.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../assets/img/tip3-1.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;4-iterm&quot;&gt;4. iTerm&lt;/h2&gt;
+&lt;p&gt;Iterm is an alternate terminal for macOS. It has some nice features like the divided panel &lt;i&gt;(Cmd + D)&lt;/i&gt;, the search &lt;i&gt;(Cmd + F)&lt;/i&gt;, and a better navigation between tabs (Cmd + Arrows).&lt;br /&gt;
+The only thing that used to bother me was the “new tab” option &lt;i&gt;(Cmd T)&lt;/i&gt; which by default, open a new tab in the root directory. For me is more useful when it opens in the current directory. If it makes sense to you too, just go to &lt;code class=&quot;highlighter-rouge&quot;&gt;Preferences &amp;gt; Profiles &amp;gt; Reuse previous session's directory&lt;/code&gt;. Done!&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../assets/img/tip4-1.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../assets/img/tip4-2.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;5-z-shell---zsh&quot;&gt;5. Z Shell - zsh&lt;/h2&gt;
+&lt;p&gt;Z Shell is an alternate unix shell. It has some nice features like the Tab completion. To use the Tab completion type &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt;, then the first letters of the directory names and press TAB.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../assets/img/tip5-1.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Z shell also keeps a shared history between sections. Therefore, when I press the Arrow Up key to see my last commands, I’ll see indeed my last commands, regardless of the tab or window I am at the moment. The history is also good because I can start to type the command I want, and press the Arrow Up key, then the shell will suggest the last command I typed with those initial letters.&lt;/p&gt;
+
+&lt;p&gt;The &lt;i&gt;cd&lt;/i&gt; command is not necessary anymore, unless to do the Tab completion tip.&lt;/p&gt;
+
+&lt;p&gt;You can also use the command &lt;i&gt;ls&lt;/i&gt; without having to type whole directory names, just type the first few letters, press TAB, and that is enough to make it work.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../assets/img/tip5-2.png&quot; /&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../assets/img/tip5-3.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;How to install zsh:&lt;br /&gt;
+First, check if you already have it.
+Try &lt;code class=&quot;highlighter-rouge&quot;&gt;zsh --version&lt;/code&gt; on your iTerm. 
+If you don’t have it, run (assuming you have &lt;i&gt;homebrew&lt;/i&gt;):&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;$ brew install zsh zsh-completions&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;$ sudo port install zsh zsh-completions&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;To set zsh as your default shell, execute the following:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;chsh -s /bin/zsh&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;6-oh-my-zsh-fun-part&quot;&gt;6. Oh-my-zsh (Fun part!)&lt;/h2&gt;
+&lt;p&gt;Now things will start to be fun! Oh-my-zsh is a framework to configure zsh. You can install tons of plugins to make your life easier! I’ll list just my favorites here.&lt;br /&gt;
+But first, to install oh-my-zsh type:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-default&quot; data-lang=&quot;default&quot;&gt;$ sh -c &quot;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;61-syntax-highlighting-plugin&quot;&gt;6.1 Syntax Highlighting Plugin&lt;/h3&gt;
+&lt;p&gt;It shows the red color when the command is wrong, and green when it’s right.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../assets/img/tip6-1.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;To install it, clone this repository in oh-my-zsh’s plugins directory:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-default&quot; data-lang=&quot;default&quot;&gt;$ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Then activate the plugin in &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.zshrc&lt;/code&gt;:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-default&quot; data-lang=&quot;default&quot;&gt;plugins=(zsh-syntax-highlighting)&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;62-zsh-autosuggestion&quot;&gt;6.2 zsh-AutoSuggestion&lt;/h3&gt;
+&lt;p&gt;As the name says, it shows a suggestion when you start to type. When the suggestion is the correct one, just press the Arrow Right key.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../assets/img/tip6-2.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The suggestions are based on configured &lt;i&gt;alias&lt;/i&gt; (see more below), history of commands, syntax of commands, etc.&lt;/p&gt;
+
+&lt;p&gt;To install it, clone this repository into $ZSH_CUSTOM/plugins (by default ~/.oh-my-zsh/custom/plugins)&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-default&quot; data-lang=&quot;default&quot;&gt;$ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;and again, add the plugin to the list of plugins inside &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.zshrc&lt;/code&gt;:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-default&quot; data-lang=&quot;default&quot;&gt;plugins=(zsh-autosuggestions)&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;63-autojump&quot;&gt;6.3 Autojump&lt;/h3&gt;
+&lt;p&gt;The shortcut &lt;code class=&quot;highlighter-rouge&quot;&gt;j&lt;/code&gt; goes to the most used directory. And if you type &lt;code class=&quot;highlighter-rouge&quot;&gt;j&lt;/code&gt; +  the name of the folder or project you want (or just the first few letters), it will go straight to where you want.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../assets/img/tip6-3.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;To install it:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;$ brew install autojump&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Then add the plugin in &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.zshrc&lt;/code&gt;:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-default&quot; data-lang=&quot;default&quot;&gt;plugins=(autojump)&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;64-git&quot;&gt;6.4 Git&lt;/h3&gt;
+&lt;p&gt;The coolest thing here is the possibility to use fast shortcuts for git commands, some examples are:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gst&lt;/code&gt; - git status&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;gup&lt;/code&gt; - git pull –rebase&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;gp&lt;/code&gt; - git push&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;gcmsg&lt;/code&gt;- git commit -m&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;gd&lt;/code&gt; - git diff&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;gaa&lt;/code&gt; - git add –all&lt;/p&gt;
+
+&lt;p&gt;You can find the complete cheatsheet &lt;a href=&quot;https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To use it, add git to the plugins array in your zshrc file, in the end, your plugins array will be something like:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-default&quot; data-lang=&quot;default&quot;&gt;plugins=(  
+    git
+    autojump  
+    command-not-found  
+    tig
+    zsh-syntax-highlighting
+    zsh-autosuggestions
+)&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;65-alias&quot;&gt;6.5 Alias&lt;/h3&gt;
+&lt;p&gt;You can also personalize the alias you want in the &lt;code class=&quot;highlighter-rouge&quot;&gt;.zshrc&lt;/code&gt; file. To do it, you just have to use the &lt;code class=&quot;highlighter-rouge&quot;&gt;alias&lt;/code&gt; keyword inside &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.zshrc&lt;/code&gt;:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-default&quot; data-lang=&quot;default&quot;&gt;alias softReset=&quot;git reset --soft head~1&quot;
+alias hardReset=&quot;git reset --hard head~1&quot;
+alias amendCommit=&quot;git commit --amend&quot;
+alias gphm=&quot;git push heroku master&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;66-themes&quot;&gt;6.6 Themes&lt;/h3&gt;
+&lt;p&gt;To finish, there are tons of beautiful themes available to you personalize your terminal. I use the &lt;code class=&quot;highlighter-rouge&quot;&gt;avit&lt;/code&gt; theme. 
+You can find all of them &lt;a href=&quot;https://github.com/robbyrussell/oh-my-zsh/wiki/Themes&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To set the theme, add inside &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.zshrc&lt;/code&gt;:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-default&quot; data-lang=&quot;default&quot;&gt;ZSH_THEME=&quot;avit&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;That’s all!&lt;/p&gt;</content><author><name></name></author><summary type="html">In order to gain some time at work, we have a group of tools and configurations set on our laptops to make things easier and faster. They are not rules. But in general, people who adopt it, end up liking most of them. At ThoughtWorks we usually work with Macbook Pro with Touch Bar, so some tips are specific for it. But most of them are configurable on any laptop/OS.</summary></entry><entry><title type="html">[Clean Code] Nomes significativos</title><link href="http://localhost:4000/clean-code-nomes-significativos/" rel="alternate" type="text/html" title="[Clean Code] Nomes significativos" /><published>2019-07-05T00:00:00-03:00</published><updated>2019-07-05T00:00:00-03:00</updated><id>http://localhost:4000/clean-code-nomes-significativos</id><content type="html" xml:base="http://localhost:4000/clean-code-nomes-significativos/">&lt;p&gt;Notas de estudo do livro &lt;em&gt;Clean Code&lt;/em&gt; de Robert C. Martin.&lt;br /&gt;
 &lt;em&gt;Capítulo 2 - Nomes significativos&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Uma das coisas que mais fazemos quando programamos é nomear. Nomeamos classes, funções, variáveis, entre outra coisas. Já que fazemos muito isso, é importante que façamos bem.&lt;/p&gt;
