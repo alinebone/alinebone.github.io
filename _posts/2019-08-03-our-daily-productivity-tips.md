@@ -176,7 +176,7 @@ The coolest thing here is the possibility to use fast shortcuts for git commands
 
 You can find the complete cheatsheet [here](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet).
 
-To use it, add git to the plugins array in your zshrc file, in the end, your plugins array will be something like:  
+To use it, add git to the plugins array in your .zshrc file, in the end, your plugins array will be something like:  
 
 {% highlight default %}
 plugins=(  
@@ -190,7 +190,7 @@ plugins=(
 {% endhighlight %}
 
 ### 6.5 Alias
-You can also personalize the alias you want in the `.zshrc` file. To do it, you just have to use the `alias` keyword inside `~/.zshrc`:  
+You can also personalize the aliases you want in the `.zshrc` file. To do it, you just have to use the `alias` keyword inside `~/.zshrc`:  
 
 {% highlight default %}
 alias softReset="git reset --soft head~1"
@@ -200,7 +200,7 @@ alias gphm="git push heroku master"
 {% endhighlight %}
 
 ### 6.6 Themes
-To finish, there are tons of beautiful themes available to you personalize your terminal. I use the `avit` theme. 
+To finish, there are tons of beautiful themes available for you to personalize your terminal. I use the `avit` theme. 
 You can find all of them [here](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes).  
 
 To set the theme, add inside `~/.zshrc`:  
