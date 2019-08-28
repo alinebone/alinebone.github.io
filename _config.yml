@@ -25,6 +25,9 @@ sass:
   sass_dir:         _sass
   style:            compressed
 
+google:
+  analytics:          UA-45365093-12
+
 # Social
 github-url:         alinebone
 linkedin:           alinebone
