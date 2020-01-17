@@ -7,6 +7,18 @@ date:   2019-08-03
 In order to gain some time at work, we have a group of tools and configurations set on our laptops to make things easier and faster. They are not rules. But in general, people who adopt it, end up liking most of them.  
 At ThoughtWorks we usually work with Macbook Pro with Touch Bar, so some tips are specific for it. But most of them are configurable on any laptop/OS.
 
+---
+
+<strong>Update</strong>   
+### Package managers   
+First of all, it's important to talk about package managers, a package manager is a collection of software tools that automates the process of installing, upgrading, configuring, etc. Homebrew and sdkman are good examples of it.   
+Here I'll be using [homebrew](https://brew.sh/), check their website to see more details. Homebrew simplifies the process of installing software on macOS.
+To install it, paste in your terminal:
+
+`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
+---
+
 ## 1. Configure the Function Keys to appear whenever you want
 In the beginning, it was annoying to lose the Function Keys because of the Touch Bar. The Functions Keys are a very good resource to use the shortcuts that IntelliJ or any other IDE provide us while coding.
 To solve this, go to:  
