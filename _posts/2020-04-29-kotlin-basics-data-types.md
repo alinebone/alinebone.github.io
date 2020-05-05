@@ -4,7 +4,7 @@ title:  "[Kotlin Basics] Data Types"
 date:   2020-04-29
 ---
 
-# Kotlin Basics
+# Kotlin Basics: Part 1 - Data Types
 
 ### Mutable and immutable variables
 
