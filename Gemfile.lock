@@ -89,6 +89,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler
   jekyll (~> 3.8.5)
   jekyll-feed
   jekyll-gist
