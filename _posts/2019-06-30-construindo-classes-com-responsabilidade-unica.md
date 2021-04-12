@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Construindo classes com responsabilidade única"
-date:   2019-06-30
+categories: cool
+title: Construindo classes com responsabilidade única
 ---
 
 Notas de estudo do livro *Practical Object-Oriented Design in Ruby* de Sandi Metz.  
@@ -21,7 +21,7 @@ Sandi Metz, autora de *Practical Object-Oriented Design in Ruby* usa um acrósti
 *Usable*: o código existente deve continuar sendo usável após as alterações, mesmo em contextos novos e inesperados.  
 *Exemplary*: o código deve encorajar os outros a manter a qualidade.
 
-O primeiro passo para criar um código TRUE é usar o princípio da reponsabilidade única, que diz que uma classe deve fazer a menor coisa útil possível. 
+O primeiro passo para criar um código TRUE é usar o princípio da reponsabilidade única, que diz que uma classe deve fazer a menor coisa útil possível.
 
 Quando estamos desenvolvendo uma aplicação, procuramos substantivos candidatos a serem classes. São candidatos os substantivos que possuem atributos e comportamentos, como a marcha de uma bicicleta. Uma classe *marcha* poderia ter correntes, engrenagens, roda e pneu (atributos), e proporção e tamanho da marcha (comportamento).
 
@@ -45,9 +45,9 @@ Portanto, faça o código com cuidado e seja crítico com o código dos outros.
 Dependa de comportamento, não de dados:
 - Encapsule as variáveis em métodos de acesso (get). Se eu referenciar essa variável em 10 lugares e precisar mudar o que ela significa, fica mais fácil fazer isso modificando ou implementando minha versão do método.
 - Utilizar *single responsability* também em outros lugares, como métodos. O objetivo é deixar o código fácil de mudar, e não pequeno. Refatorar o método para que ele tenha responsabilidade única traz vantagens como:
-	- Fica mais fácil entender se uma classe tem responsabilidade única
-	- Evita comentários explicando o que o método faz
-	- Encoraja o reuso do método
-	- Métodos pequenos são mais fáceis de mover para outra classe, caso necessário
+    - Fica mais fácil entender se uma classe tem responsabilidade única
+    - Evita comentários explicando o que o método faz
+    - Encoraja o reuso do método
+    - Métodos pequenos são mais fáceis de mover para outra classe, caso necessário
 
 - Se encontrar responsabilidades extras em uma classe que ainda não podem ser removidas, isole-as, usando ferramentas como o struct do Ruby.

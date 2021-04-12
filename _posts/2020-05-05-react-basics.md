@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "React Basics"
-date:   2020-05-05
+categories: cool
+title: React Basics
 ---
 
 React is a Javascript library used to build interfaces.   

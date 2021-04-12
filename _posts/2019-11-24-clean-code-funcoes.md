@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[Clean Code] Funções"
-date:   2019-11-24
+categories: cool
+title: Clean Code - Funções
 ---
 
 Notas de estudo do livro *Clean Code* de Robert C. Martin.  

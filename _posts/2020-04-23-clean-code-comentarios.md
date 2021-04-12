@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[Clean Code] Comentários"
-date:   2020-04-23
+categories: cool
+title: Clean Code - Comentários
 ---
 
 Notas de estudo do livro *Clean Code* de Robert C. Martin.  
