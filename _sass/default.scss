@@ -23,6 +23,15 @@ body {
     }
   }
 
+  .tag {
+    background-color: #2f2823;
+    color: white;
+    font-size: 0.6rem;
+    padding: 2px;
+    display: inline-block;
+    margin-top: 2px;
+  }
+
   header {
     border-bottom: 1px solid #2f2823;
     padding-bottom: 1rem;
@@ -58,15 +67,10 @@ body {
       font-size: 1.2rem;
       margin: 0;
     }
+  }
 
-    .tag {
-      background-color: #2f2823;
-      color: white;
-      font-size: 0.8rem;
-      padding: 2px;
-      display: inline-block;
-      margin-top: 2px;
-    }
+  article {
+    line-height: 1.4;
   }
   
   footer {

@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: cool
+categories: development
 title: Criar agenda de compromissos usando Rails 4
 ---
 

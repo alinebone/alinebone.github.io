@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: cool
+categories: development english
 title: React Basics
 ---
 
