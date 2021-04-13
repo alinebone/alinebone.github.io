@@ -1,23 +1,19 @@
 ---
 layout: post
-categories: development
-title: Criar agenda de compromissos usando Rails 4
+categories: development portuguese
+title: "[Desatualizado] Criar agenda de compromissos usando Rails 4"
 ---
 
 Uma forma muito legal de agregar uma agenda de compromissos ou eventos no seu projeto é utilizando um calendário. No Ruby on Rails é muito simples fazer isso com a ajuda da gem **table_builder**.
 
 Crie um novo projeto e gere o modelo de compromisso.
 
-{% highlight default %}
-$ rails new AgendaDeCompromissos
-$ rails g scaffold Compromisso titulo:string texto:text date:date
-$ rake db:migrate
-{% endhighlight %}
+`$ rails new AgendaDeCompromissos`   
+`$ rails g scaffold Compromisso titulo:string texto:text date:date`   
+`$ rake db:migrate`
 
 Instale a gem table_builder, adicionando na Gemfile:
-{% highlight default %}
-gem "watu_table_builder", :require => "table_builder"
-{% endhighlight %}
+`gem "watu_table_builder", :require => "table_builder"`
 
 Depois, no terminal digite:
 {% highlight default %}
@@ -108,9 +104,7 @@ text-align: center;
 {% endhighlight %}
 
 Nessa altura já temos o calendário com estilo criado:
-<figure>
-	<img src="../assets/img/calendar1.png">
-</figure>
+![Design do calendário criado](/assets/images/calendar1.png)
 
 Agora setamos o compromisso em app/controllers/compromissos_controller.rb para receber a data presente:
 
@@ -162,13 +156,9 @@ Adicionar as setas para navegar pelo calendário, app/views/projects/index.html.
 {% endhighlight %}
 
 Resultado final:
-<figure>
-	<img src="../assets/img/calendar2.png">
-</figure>
+![Tela para adicionar compromissos](/assets/images/calendar2.png)
+![Calendário com os compromissos adicionados](/assets/images/calendar3.png)
 
-<figure>
-	<img src="../assets/img/calendar3.png">
-</figure>
 
 Código fonte: <a href="https://github.com/alinebone/AgendaDeCompromissos">**Github**</a><br/>
 Demo: <a href="http://tutorialagenda.herokuapp.com/compromissos">**Heroku**</a>
