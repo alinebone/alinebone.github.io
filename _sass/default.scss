@@ -1,66 +1,8 @@
-
 body {
   font-family: Times, "Times New Roman", Georgia, serif;
   width: 60%;
   margin: auto;
   padding: 1rem;
-
-  div.separator {
-    border-top: 1px solid #eaeaea;
-    margin: 1rem 0;
-  }
-
-  q {
-    font-style: italic;
-  }
-
-  a {
-    text-decoration: none;
-    color: #2f2823;
-
-    &:hover, &:focus {
-      text-decoration: underline;
-    }
-  }
-
-  .tag {
-    background-color: #2f2823;
-    color: white;
-    font-size: 0.6rem;
-    padding: 2px;
-    display: inline-block;
-    margin-top: 2px;
-  }
-
-  header {
-    border-bottom: 1px solid #2f2823;
-    padding-bottom: 1rem;
-    margin-bottom: 1rem;
-
-    nav {
-      display: flex;
-      gap: .8rem;
-
-      a {
-        &:first-child {
-          margin-right: auto;
-        }
-      }
-
-      a.current {
-        text-decoration: underline;
-        font-style: italic;
-      }
-    }
-  }
-
-  main.home {
-    text-align: center;
-
-    .avatar {
-      width: 140px;
-    }
-  }
 
   main.blog {
     h1 {
@@ -71,24 +13,5 @@ body {
 
   article {
     line-height: 1.4;
-  }
-  
-  footer {
-    border-top: 1px solid #2f2823;
-    padding-top: 1rem;
-    margin-top: 1rem;
-
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 0.8rem;
-    }
-  }
-
-  code {
-    font-family: "Lucida Console", Courier, monospace;
-    background-color: black;
-    color: white;
-    font-size: 0.8rem;
   }
 }

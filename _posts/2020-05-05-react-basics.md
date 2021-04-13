@@ -23,7 +23,7 @@ To start to use React, we can just create a simple HTML page and add the followi
 
 Now, before the end of the `body` tag, open a `script` and add the React code:
 
-```javascript
+```
 ReactDOM.render(
   React.createElement("p", null, "Hello World"),
   document.getElementById("root")
@@ -35,7 +35,7 @@ The `.createElement` function will create the React element, the first parameter
 
 The final result:
 
-```html
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -56,9 +56,10 @@ The final result:
 </body>
 </html>
 ```
+
 We can also render multiple elements adding another `.createElement` as children:
 
-```javascript
+```
 ReactDOM.render(
   React.createElement(
     "p", 
@@ -80,7 +81,7 @@ We also need to add `type="text/babel"` in the script.
 
 Now we don't need the `.createElement` anymore. We can just add the `JSX`/`html` as the first parameter of the `.render` method:
 
-```javascript
+```
 <script type="text/babel">
   ReactDOM.render(
     <p>Hi</p>,
@@ -91,7 +92,7 @@ Now we don't need the `.createElement` anymore. We can just add the `JSX`/`html`
 
 `JSX` is simular, but it's not equal to `html`. We can add `Javascript` code inside `JSX` using curly braces (`{}`):
 
-```javascript
+```
 <script type="text/babel">
   var city = "Lisbon"
 
@@ -109,7 +110,7 @@ To add a `css` class in a tag, we add the `className` attribute. Because `class`
 A component is a piece of independent UI that can be reused in an application.   
 Compenents can be create using functions or classes. An example function components is:
 
-```jsx
+```
 const Greeting = () =>
   <div>
     <h1>Hello, stranger!</h1>
@@ -122,7 +123,7 @@ It's required to wrap the content in a father element.
 Another important thing is that we can embrace the function component with *parenthesis* `()` or *curly braces* `{}`.   
 But if we use *curly braces*, we neeed to add the `return` key. Ie:
 
-```jsx
+```
 const Greeting = () => {
   return <div>
     <h1>Hello, stranger!</h1>
@@ -138,7 +139,7 @@ To pass a prop, we add in the component call the prop key and the value. Ie. `<G
 To retrieve it, we have to add the `props` key as the function parameter and to use it, add `props.key` inside the `jsx` using curly braces `{}`.
 The result is:
 
-```jsx
+```
     const Greeting = (props) => 
       <div>
         <h1>Hello, {props.name}!</h1>
@@ -151,7 +152,7 @@ The result is:
   ```
 
 For brevity, we can replace the `props` keyword with curly braces `{}` and call directly the property key.
-```jsx
+```
 const Greeting = ({name}) => 
   <div>
     <h1>Hello, {name}!</h1>
@@ -160,7 +161,7 @@ const Greeting = ({name}) =>
 
 To start to make it real, we can define a root component called `App`, and play composing components: 
 
-```jsx
+```
     const App = () =>
     <div>
       <Greeting name="Stranger"/>
@@ -183,7 +184,7 @@ A component class will work in the same way, but we don't need to pass the `prop
 We also need to extends `React.Component`, use the `render()` function to render the `jsx`, and **always** use the `return` key.  
 To refactor the `Greeting` component to be a class component we do:
 
-```jsx
+```
 class Greeting extends React.Component {
   render() {
     return <div>
@@ -207,7 +208,7 @@ We can use it this way only in class components.
 Events are an important part of React development.
 One important event is the `onClick`. Here's how to use it in a button element: `<button onClick={logIn}>Log in</buton>`, now the `logIn` function we are passing:
 
-```jsx
+```
 logIn = () => {
   this.setState({ loggedIn: true })
 }
@@ -215,13 +216,13 @@ logIn = () => {
 
 We can also conditionally render components:
 
-```jsx
+```
 {this.state.loggedIn ? <OneComponent> : <AnotherComponent>}
 ```
 
 To render an array, we can use the `map` function: 
 
-```jsx
+```
   const names = ["Stranger", "Aline", "Alien"];
 
   names.map( name =>

@@ -1,15 +1,13 @@
 ---
 layout: post
-categories: cool
+categories: development english
 title: Kotlin Basics - Data Types
 ---
 
-### Mutable and immutable variables
-
 Before proceeding, it's important to know that Kotlin has two types of variables:
 
-* `var` - it's mutable (variable)
-* `val` - it's immutable (constant)
+* `var` - it's **mutable** (variable)
+* `val` - it's **immutable** (constant)
 
 Why is `val` preferred?
 
