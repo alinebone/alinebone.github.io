@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: cool
+categories: development portuguese
 title: Clean Code - Nomes significativos
 ---
 

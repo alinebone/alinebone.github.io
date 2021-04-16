@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: cool
+categories: development portuguese
 title: Construindo classes com responsabilidade única
 ---
 
