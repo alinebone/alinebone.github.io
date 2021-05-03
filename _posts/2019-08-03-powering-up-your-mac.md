@@ -8,7 +8,7 @@ In order to gain some time at work, we have a group of tools and configurations 
 At ThoughtWorks, we work with macOS so most of the tips are specific for it, however some of them can be configurable on Linux and Windows too.
 ---
 
-## Package managers
+## 1. Package managers
 
 First of all, it’s important to talk about package managers, a package manager is a collection of software tools that automates the process of installing, upgrading, and configuring a bunch of programs (packages) on your computer. Homebrew, nvm and sdkman are good examples of it.
 Homebrew and Homebrew Cask
@@ -34,7 +34,7 @@ Homebrew Cask extends Homebrew and brings its simplicity to the installation and
 `$ brew cask list` shows all the installed packages.  
 `$ brew cask help` shows all the available commands.
 
-### Nvm
+### 1.1 Nvm
 
 Node.js is a widely used Javascript runtime. It'is a simple bash script to manage multiple active node.js versions. To isntall it, run the command:
 
@@ -56,7 +56,7 @@ The main commands are:
 `$ nvm alias default node` set the latest node version installed as default  
 `$ nvm alias default 11.10.0` set specific node version as default
 
-### SDKman
+### 1.2 SDKman
 
 SDKMan is a software package manager specific for Java platform, it installs and manages program languages ​​and tools such as Java, Kotlin, Scala, Gradle, Maven, Spring Boot and Grails.
 
@@ -73,9 +73,9 @@ $ sdk default [PACKAGE_NAME][VERSION]: set specific version as default
 $ sdk current: show current version in use of all the installed packages
 $ sdk current [PACKAGE_NAME]: show current version in use of specific package
 
-## Terminal
+## 2. Terminal
 
-### iTerm
+### 2.1 iTerm
 
 Iterm is an alternate terminal for macOS. It has some nice features like the divided panel (Cmd + D), the global search (Cmd + F), and a better navigation between tabs (Cmd + Arrows). It’s a lot more customizable than the Terminal.
 Let's use homebrew to install the iterm terminal :)
