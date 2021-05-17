@@ -6,5 +6,6 @@ gem "jekyll-gist"
 gem 'jekyll-mentions'
 gem 'jekyll-seo-tag'
 gem 'jekyll-feed'
+gem 'jekyll-compose', group: [:jekyll_plugins]
 
 gem 'bundler'
