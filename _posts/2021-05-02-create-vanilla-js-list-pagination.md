@@ -7,7 +7,7 @@ categories: development english
 Some time ago I was in a situation where I needed to create a snippet containing a list that should display four items at a time. I wanted to use pure JavaScript as in my mind it would be as easy as pie.  
 However, I ended up taking more time to do it than I thought. So here I am perpetuating this to never forget it. 😅  
 
-[Jump into the code!]()
+[Jump into the code!](https://github.com/alinebone/vanilla-js-pagination)
 
 # Part 1 - Wrapping up the base
 
